@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.svalero.carsappaa1.R;
+import com.svalero.carsappaa1.domain.dto.OrderDTO;
 import com.svalero.carsappaa1.util.DateUtils;
 import com.svalero.carsappaa1.util.ImageUtils;
 

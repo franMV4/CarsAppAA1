@@ -13,8 +13,8 @@
     <string name="car_capital">COCHE</string>
     <string name="order_capital">ORDEN</string>
     <string name="dni">DNI</string>
-    <string name="no_vip">No es VIP</string>
-    <string name="vip">Es VIP</string>
+    <string name="no_retired">No está jubilado</string>
+    <string name="retired">Está jubilado</string>
     <string name="description">Descripción</string>
     <string name="date">Fecha</string>
     <string name="car">Coche</string>

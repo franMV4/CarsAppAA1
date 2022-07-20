@@ -2,6 +2,7 @@ package com.svalero.carsappaa1.domain;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
+import androidx.room.Ignore;
 import androidx.room.PrimaryKey;
 
 
@@ -30,6 +31,11 @@ public class Client {
 
     public int getId() {
         return id;
+    }
+
+
+    @Ignore
+    public Client() {
     }
 
     public Client(int id, String name, String surname, String dni, boolean retired, float latitude, float longitude, byte[] clientImage) {

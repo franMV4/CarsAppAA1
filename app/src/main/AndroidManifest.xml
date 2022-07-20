@@ -14,6 +14,12 @@
         android:theme="@style/Theme.CarsAppAA1"
         tools:targetApi="31">
         <activity
+            android:name=".AddClientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddCarActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
